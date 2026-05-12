@@ -20,8 +20,8 @@ app.add_middleware(
 class JournalInput(BaseModel):
     content: str
     style: str = "buffett"
-    mood: str = None
-    ticker: str = None
+    mood: str | None = None
+    ticker: str | None = None
 
 @app.get("/")
 def root():
