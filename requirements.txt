@@ -1,5 +1,8 @@
+cat > requirements.txt << 'EOF'
 fastapi==0.115.0
 uvicorn==0.30.0
 supabase==2.3.0
-pydantic==2.7.0
 python-dotenv==1.0.0
+streamlit==1.32.0
+requests==2.31.0
+EOF
